@@ -40,7 +40,7 @@ async function loadData() {
                 'SOFRVOL',
                 'TOTAL_IMPLIED_LIQ',
                 'BITCOIN',
-                'WRESBAL/ASSETS',
+                'WRESBAL_ASSETS',
                 'BANK_ASSETS',
                 // Rates & Spreads (bar section)
                 'ONRRP',
@@ -296,7 +296,7 @@ function applyDashboardSettings() {
 function resetDashboardOrder() {
     const PREFERRED_ORDER = [
         'WRESBAL_MLN_USD', 'TGA_MLN_USD', 'IMPLIED_WRESBAL', 'SOFRVOL',
-        'TOTAL_IMPLIED_LIQ', 'BITCOIN', 'WRESBAL/ASSETS', 'BANK_ASSETS',
+        'TOTAL_IMPLIED_LIQ', 'BITCOIN', 'WRESBAL_ASSETS', 'BANK_ASSETS',
         'ONRRP', 'SOFR', 'SPREAD', 'SRF',
     ];
     const knownIds = new Set(AppState.seriesList.map(s => s.id));
