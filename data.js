@@ -71,18 +71,16 @@ function buildSeriesMapFromJSON(jsonData) {
             }
         });
 
-        // Sortowanie chronologiczne
-        points.sort((a, b) => a.time - b.time);
-        
-        // Zabezpieczenie przed zduplikowanymi datami
-        const unique = []; 
-        const seen = new Set();
+        // Zabezpieczenie przed zduplikowanymi datami (zawsze bierzemy najnowszy wpis z pliku)
+        const map = new Map();
         for (const p of points) { 
-            if (!seen.has(p.time)) { 
-                seen.add(p.time); 
-                unique.push(p); 
-            } 
+            map.set(p.time, p); // Nowsze wpisy nadpiszą te starsze z tą samą datą
         }
+        
+        const unique = Array.from(map.values());
+        
+        // Sortowanie chronologiczne
+        unique.sort((a, b) => a.time - b.time);
 
         const isPct = meta.unit === '%';
 
