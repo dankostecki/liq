@@ -3416,5 +3416,20 @@
     "total_assets": 24940757,
     "wresbal_to_assets_ratio": 11.761323042440132,
     "srf": 9000
+  },
+  {
+    "data": "2026-03-03",
+    "wresbal_oficjalny": 2965765,
+    "tga": 859738,
+    "wresbal_implikowany": 2945002,
+    "sofr_vol": 3310000,
+    "total_liquidity": 6255002,
+    "btc_usd": 68223,
+    "sofr_rate": 3.7,
+    "on_rrp": 3.5,
+    "spread": 0.2,
+    "total_assets": 24940757,
+    "wresbal_to_assets_ratio": 11.80798962918407,
+    "srf": 4
   }
 ]
