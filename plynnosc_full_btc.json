@@ -4526,5 +4526,35 @@
     "total_assets": 25121179,
     "wresbal_to_assets_ratio": 12.048530843237891,
     "srf": 20
+  },
+  {
+    "data": "2026-05-04",
+    "wresbal_oficjalny": 2918599,
+    "tga": 879968,
+    "wresbal_implikowany": 3026733,
+    "sofr_vol": 3113000,
+    "total_liquidity": 6139733,
+    "btc_usd": 79926,
+    "sofr_rate": 3.63,
+    "on_rrp": 3.5,
+    "spread": 0.13,
+    "total_assets": 25121179,
+    "wresbal_to_assets_ratio": 12.048530843237891,
+    "srf": 20
+  },
+  {
+    "data": "2026-05-05",
+    "wresbal_oficjalny": 2918599,
+    "tga": 860287,
+    "wresbal_implikowany": 3046414,
+    "sofr_vol": 3148000,
+    "total_liquidity": 6194414,
+    "btc_usd": 81028,
+    "sofr_rate": 3.62,
+    "on_rrp": 3.5,
+    "spread": 0.12,
+    "total_assets": 25121179,
+    "wresbal_to_assets_ratio": 12.126875096109144,
+    "srf": 2
   }
 ]
